@@ -11,14 +11,14 @@ public class Task09 {
         int b = 0;
         int c = 0;
 
-        System.out.print("число a> ");
+        System.out.print("число a > ");
         while(sc.hasNextInt() == false) {
             sc.nextLine();
             System.out.print("число a > ");
         }
         a = sc.nextInt();
 
-        System.out.print("число b> ");
+        System.out.print("число b > ");
         while(sc.hasNextInt() == false) {
             sc.nextLine();
             System.out.print("число b> ");
