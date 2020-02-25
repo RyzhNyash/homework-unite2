@@ -15,10 +15,10 @@ public class Task16 {
 		a += i;
 		b *= a;
 		
-		System.out.println(i + "|  " + a + "|  " + b);
+//		System.out.println(i + "|  " + a + "|  " + b);
 		}
 		
-		
+		System.out.println("(1+2)*(1+2+3)*...*(1+2+...+10) = " + b);				
 		
 	}
 
