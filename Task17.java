@@ -29,7 +29,6 @@ public class Task17 {
 
         for (i = 1; i < n; i++) {
             x *= (a + i);
-            System.out.println(x + " | " + i + " | " + a);
         }
 
         System.out.println(x);
