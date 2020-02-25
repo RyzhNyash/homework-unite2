@@ -6,7 +6,7 @@ public class Task19 {
 		int i = 0;
 		char j = (char) i;
 			
-		for (i = 0; i <= 127; i++) 
+		for (i = 32; i < 127; i++) 
 		{
 			j = (char) i;
 			System.out.print(" |числовое значение>| " + i);
