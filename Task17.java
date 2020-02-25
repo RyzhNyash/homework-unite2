@@ -23,11 +23,10 @@ public class Task17 {
             System.out.print("число n > ");
         }
         n = sc.nextInt();
-
-        int i;
+        
         long x = a;
 
-        for (i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             x *= (a + i);
         }
 
