@@ -6,9 +6,7 @@ public class Task16 {
 //	Вычислить: (1+2)*(1+2+3)*...*(1+2+...+10).	
 		
 		long a = 3;
-		
 		long b = a;
-		
 		int i = 0;
 		
 		for (i = 3; i <=10; i++ ) {
