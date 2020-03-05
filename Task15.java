@@ -20,17 +20,21 @@ public class Task15 {
 
         String numberStr = String.valueOf(number);
         int a = numberStr.length();
+        int j = 0;
 
         for (; number > 0; number /= 10) {
             int numberC = number % 10;
-            int j = 1;
-            System.out.println(numberC);
             if ((numberC % 2 == 0) & (numberC > 0)) {
-                System.out.println("В числе есть четная цифра " + numberC);
+                j++;
+//                System.out.println("счетчик " + j);
+//                System.out.println("В числе есть чётная цифра " + numberC);
             }
         }
-
-
+        if (j != 0) {
+            System.out.println("в числе чётных цифр " + j);
+        }else{
+            System.out.println("в числе нет четных цифр");
+        }
+//        System.out.println("всего введено цифр " + a);
     }
-
 }
